@@ -6,91 +6,91 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Map1.unity
+    path: Assets/Scenes/Map/Map1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Map2.unity
+    path: Assets/Scenes/Map/Map2.unity
     guid: b60588846a6ff7945b8702aff7a61114
   - enabled: 1
-    path: Assets/Scenes/Map3.unity
+    path: Assets/Scenes/Map/Map3.unity
     guid: 606f33f15c7048941be0fc42939cb517
   - enabled: 1
-    path: Assets/Scenes/Map4.unity
+    path: Assets/Scenes/Map/Map4.unity
     guid: 8127039e246403346a0d7fbf86b37709
   - enabled: 1
-    path: Assets/Scenes/Map5.unity
+    path: Assets/Scenes/Map/Map5.unity
     guid: 9242d63d7e31c2c4aa95b82fa0cba815
   - enabled: 1
-    path: Assets/Scenes/Map6.unity
+    path: Assets/Scenes/Map/Map6.unity
     guid: c8f46b3f3ab95094fafe4aa7fe8d634e
   - enabled: 1
-    path: Assets/Scenes/Map7.unity
+    path: Assets/Scenes/Map/Map7.unity
     guid: 4841c9ef164d83341b34e5f535ee5c17
   - enabled: 1
-    path: Assets/Scenes/Map8.unity
+    path: Assets/Scenes/Map/Map8.unity
     guid: f53c469cf7eeda445b8609c2a44161f3
   - enabled: 1
-    path: Assets/Scenes/Map9.unity
+    path: Assets/Scenes/Map/Map9.unity
     guid: c7c7aa518ba7ca44aba28fa7174bc4cc
   - enabled: 1
-    path: Assets/Scenes/Map10.unity
+    path: Assets/Scenes/Map/Map10.unity
     guid: 33f7b78e0758e3f429d52ded234c792b
   - enabled: 1
-    path: Assets/Scenes/Map11.unity
+    path: Assets/Scenes/Map/Map11.unity
     guid: c3cbd59557e7dee40b16d542c2e808aa
   - enabled: 1
-    path: Assets/Scenes/Map12.unity
+    path: Assets/Scenes/Map/Map12.unity
     guid: f4f0d654ee5cf66438e953d5db170bac
   - enabled: 1
-    path: Assets/Scenes/Map13.unity
+    path: Assets/Scenes/Map/Map13.unity
     guid: 687dfc4e91774364193d39d9a5154ef2
   - enabled: 1
-    path: Assets/Scenes/Map14.unity
+    path: Assets/Scenes/Map/Map14.unity
     guid: 19fae4d3b5408c340a57aac29e35d663
   - enabled: 1
-    path: Assets/Scenes/Map15.unity
+    path: Assets/Scenes/Map/Map15.unity
     guid: 2646953d50439b647bfc3b86a728f8f9
   - enabled: 1
-    path: Assets/Scenes/Map16.unity
+    path: Assets/Scenes/Map/Map16.unity
     guid: 8cb3ac11b607912409b3cdab66f6c476
   - enabled: 1
-    path: Assets/Scenes/Map17.unity
+    path: Assets/Scenes/Map/Map17.unity
     guid: 29079ed207e205e4c9fd1124bf57b5a3
   - enabled: 1
-    path: Assets/Scenes/Map18.unity
+    path: Assets/Scenes/Map/Map18.unity
     guid: 9673dcc61fae1ff4d9b6316c1477438c
   - enabled: 1
-    path: Assets/Scenes/Map19.unity
+    path: Assets/Scenes/Map/Map19.unity
     guid: f818c99532246fa4cbb25a1b1b050d05
   - enabled: 1
-    path: Assets/Scenes/Map20.unity
+    path: Assets/Scenes/Map/Map20.unity
     guid: 94f23a606a98fb34d9c6c6c1d07d3d38
   - enabled: 1
-    path: Assets/Scenes/Map21.unity
+    path: Assets/Scenes/Map/Map21.unity
     guid: 75f0638f77b5d304ebe5b1b27ae6d4db
   - enabled: 1
-    path: Assets/Scenes/Map22.unity
+    path: Assets/Scenes/Map/Map22.unity
     guid: b1587cb2c8e52654fa57df757900e898
   - enabled: 1
-    path: Assets/Scenes/Map23.unity
+    path: Assets/Scenes/Map/Map23.unity
     guid: c44083a9ae9b4404baadd33edcae9adc
   - enabled: 1
-    path: Assets/Scenes/Map24.unity
+    path: Assets/Scenes/Map/Map24.unity
     guid: 0188b792ed3688b4caf81ee89c4778e7
   - enabled: 1
-    path: Assets/Scenes/Map25.unity
+    path: Assets/Scenes/Map/Map25.unity
     guid: ccba65fa69fb86d4789e99dfb72ce629
   - enabled: 1
-    path: Assets/Scenes/Map26.unity
+    path: Assets/Scenes/Map/Map26.unity
     guid: 2a886cce68dc9de4fa9445d40ac045e0
   - enabled: 1
-    path: Assets/Scenes/Map27.unity
+    path: Assets/Scenes/Map/Map27.unity
     guid: 44fd342c9fceccb44a17a042ce15293b
   - enabled: 1
-    path: Assets/Scenes/Map28.unity
+    path: Assets/Scenes/Map/Map28.unity
     guid: 93f44d668dd168842a7dd19a9ef621ba
   - enabled: 1
-    path: Assets/Scenes/Map29.unity
+    path: Assets/Scenes/Map/Map29.unity
     guid: 3e9fe58c59ae1a7488e9659bfba60528
   - enabled: 1
     path: Assets/Scenes/FullMap/FullMap1.unity

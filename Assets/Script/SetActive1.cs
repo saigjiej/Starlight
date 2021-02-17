@@ -10,6 +10,11 @@ public class SetActive1 : MonoBehaviour
     private bool state;
     public GameObject Target;
 
+    public void Awake()
+    {
+        
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,29 +34,57 @@ public class SetActive1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (Input.GetMouseButtonDown(0))
+        if (SceneManager.GetActiveScene().name == "Map1" || SceneManager.GetActiveScene().name == "FullMap1")
         {
-            if (gameObject != null)
+            if (Input.GetMouseButtonDown(0))
             {
-                print("마우스 입력 받았음");
-                if (state == true)
+                if (gameObject != null)
                 {
-                    Target.SetActive(false);
-                    print("사라져");
-                    SceneManager.LoadScene("FullMap1");
-                    state = false;
+                    print("마우스 입력 받았음");
+                    if (state == true)
+                    {
+                        Target.SetActive(false);
+                        print("사라져");
+                        SceneManager.LoadScene("FullMap1");
+                        state = false;
+                    }
+                    else
+                    {
+                        Target.SetActive(true);
+                        print("생겨나");
+                        SceneManager.LoadScene("Map1");
+                        state = true;
+                    }
                 }
-                else
-                {
-                    Target.SetActive(true);
-                    print("생겨나");
-                    SceneManager.LoadScene("Map1");
-                    state = true;
-                }
-            }
 
+            }
         }
+        if (SceneManager.GetActiveScene().name == "Map4" || SceneManager.GetActiveScene().name == "FullMap2")
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                if (gameObject != null)
+                {
+                    print("마우스 입력 받았음");
+                    if (state == true)
+                    {
+                        Target.SetActive(false);
+                        print("사라져");
+                        SceneManager.LoadScene("FullMap2");
+                        state = false;
+                    }
+                    else
+                    {
+                        Target.SetActive(true);
+                        print("생겨나");
+                        SceneManager.LoadScene("Map4");
+                        state = true;
+                    }
+                }
+
+            }
+        }
+
     }
 
 }
