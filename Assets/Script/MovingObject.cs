@@ -36,17 +36,17 @@ public class MovingObject : MonoBehaviour
 
     void Start()
     {
-        if (instance != null)
-        {
-            Destroy(this.gameObject);
-        }
-        else
+        if(instance == null)
         {
             DontDestroyOnLoad(this.gameObject); // 이 gameObject를 다음 씬을 로드할 때마다 파괴시키지 않음
             boxCollider = GetComponent<BoxCollider2D>();
             animator = GetComponent<Animator>();  // 애니메이션 통제
 
             instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
         }
     }
 
