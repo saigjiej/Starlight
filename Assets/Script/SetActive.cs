@@ -610,5 +610,29 @@ public class SetActive : MonoBehaviour
                 }
             }
         }
+        if (SceneManager.GetActiveScene().name == "Home1" || SceneManager.GetActiveScene().name == "FullMap28")
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                if (gameObject != null)
+                {
+                    print("마우스 입력 받았음");
+                    if (state == true)
+                    {
+                        Target.SetActive(false);
+                        print("사라져");
+                        SceneManager.LoadScene("FullMap28");
+                        state = false;
+                    }
+                    else
+                    {
+                        Target.SetActive(true);
+                        print("생겨나");
+                        SceneManager.LoadScene("Home1");
+                        state = true;
+                    }
+                }
+            }
+        }
     }
 }
