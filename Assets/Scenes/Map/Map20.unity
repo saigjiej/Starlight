@@ -457,7 +457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27dcc007b83042d439bd5b8447c6c3b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transferMapName: Map23
+  transferMapName: Map26
 --- !u!4 &1136391394
 Transform:
   m_ObjectHideFlags: 0
