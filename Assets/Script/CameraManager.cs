@@ -31,7 +31,7 @@ public class CameraManager : MonoBehaviour
         if(target.gameObject != null)
         {
             targetPosition.Set(target.transform.position.x, target.transform.position.y, this.transform.position.z);
-
+        
             this.transform.position = Vector3.Lerp(this.transform.position, targetPosition, moveSpeed * Time.deltaTime);  // 1초에 movespeed만큼 이동
         }
     }

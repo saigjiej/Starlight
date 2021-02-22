@@ -12,31 +12,23 @@ public class StartPoint : MonoBehaviour
     //public string current = thePlayer.currentMapName;
 
     private MovingObject thePlayer;
-    //private CameraManager theCamera;
+    private CameraManager theCamera;
 
-
-    public string log;
-    public string startPoint2;
 
     // Start is called before the first frame update
     void Start()
     {
-        log = SceneManager.GetActiveScene().name;
+        //log = SceneManager.GetActiveScene().name;
 
         thePlayer = FindObjectOfType<MovingObject>();  // 모든 객체의 <> 컴포넌트를 검색해서 리턴
-        //theCamera = FindObjectOfType<CameraManager>();
+        theCamera = FindObjectOfType<CameraManager>();
 
-        if (startPoint == thePlayer.currentMapName && log == "Map2")
+        if (startPoint == thePlayer.currentMapName)
         {
             thePlayer.transform.position = this.transform.position;
-            //theCamera.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, theCamera.transform.position.z);
-            //current = thePlayer.currentMapName;
+            theCamera.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, theCamera.transform.position.z);
+
         }
-        if(startPoint == thePlayer.currentMapName && log == "Map4")
-        {
-            thePlayer.transform.position = this.transform.position;
-        }
-        
     }
 
     // Update is called once per frame
