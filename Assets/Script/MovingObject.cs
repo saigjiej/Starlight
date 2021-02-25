@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class MovingObject : MonoBehaviour
 {
-    static public MovingObject instance;
+    static public MovingObject instance = null;
 
     public string currentMapName; // TransferMap 스크립트에 있는 transferMapName 변수의 값을 저장.
 
@@ -33,20 +33,30 @@ public class MovingObject : MonoBehaviour
 
     //private static string s_Instance = null;
 
+    public GameObject cube;
+
 
     void Start()
     {
-        if(instance == null)
+
+        
+        if (instance == null)
         {
             DontDestroyOnLoad(this.gameObject); // 이 gameObject를 다음 씬을 로드할 때마다 파괴시키지 않음
             boxCollider = GetComponent<BoxCollider2D>();
             animator = GetComponent<Animator>();  // 애니메이션 통제
-
+            
             instance = this;
+            if (SceneManager.GetActiveScene().name == "FullMap1")
+            {
+                cube.SetActive(false);
+            }
         }
+     
+        
         else
         {
-            Destroy(this.gameObject);
+            GameObject.Destroy(this.gameObject);
         }
     }
 

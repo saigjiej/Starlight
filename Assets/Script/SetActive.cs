@@ -10,14 +10,10 @@ public class SetActive : MonoBehaviour
     private bool state;
     public GameObject Target;
 
+
     public void Awake()
     {
-        
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
+        Target.transform.parent = null;
         state = true;
 
         if (instance != null)
@@ -29,6 +25,12 @@ public class SetActive : MonoBehaviour
             DontDestroyOnLoad(this.gameObject); // 이 gameObject를 다음 씬을 로드할 때마다 파괴시키지 않음
             instance = this;
         }
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
     }
 
     // Update is called once per frame

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneMovement1 : MonoBehaviour
+public class SceneMovemont2 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,9 +14,9 @@ public class SceneMovement1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0))
         {
-            SceneManager.LoadScene("FullMap1");
+            SceneManager.LoadScene("Map1");
         }
     }
 }
