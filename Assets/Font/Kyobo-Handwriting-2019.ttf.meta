@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b0ab991413f2abd4f9c9476d2b5c7e95
+guid: b2f7e3847dc1d9d469b30881423e65eb
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,7 +8,6 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Kyobo Handwriting 2019
   fontNames:
   - Kyobo Handwriting 2019
   fallbackFontReferences: []
