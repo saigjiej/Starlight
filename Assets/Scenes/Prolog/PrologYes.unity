@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 160282400}
   - component: {fileID: 160282402}
   - component: {fileID: 160282401}
+  - component: {fileID: 160282403}
   m_Layer: 5
   m_Name: explain
   m_TagString: Untagged
@@ -204,6 +205,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160282399}
   m_CullTransparentMesh: 0
+--- !u!114 &160282403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160282399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ca5bd501e665b4fab72a494f29db87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txt: {fileID: 160282401}
 --- !u!1 &334161213
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,6 +807,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &1813083375
 Canvas:
   m_ObjectHideFlags: 0
@@ -957,6 +972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -986,9 +1002,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1938327571}
-        m_TargetAssemblyTypeName: PrologYes, Assembly-CSharp
-        m_MethodName: Click
+      - m_Target: {fileID: 1938327572}
+        m_TargetAssemblyTypeName: StartMusic, Assembly-CSharp
+        m_MethodName: BackGroundMusicOffButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -998,9 +1014,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1938327572}
-        m_TargetAssemblyTypeName: StartMusic, Assembly-CSharp
-        m_MethodName: BackGroundMusicOffButton
+      - m_Target: {fileID: 1938327571}
+        m_TargetAssemblyTypeName: PrologYes, Assembly-CSharp
+        m_MethodName: Yes
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1057,7 +1073,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1938327566}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2c2724efa678834d80c682b0cd1a77b, type: 3}
+  m_Script: {fileID: 11500000, guid: 686b2a3987714c74f83edade8fe3ecc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1938327572

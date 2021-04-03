@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Prolog/Main.unity
     guid: d129d1831ee922044a15c44e67aedabe
@@ -41,12 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/calendar.unity
     guid: c6bbd3c018e762d40823a85499d37d03
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Gamemap1.unity
     guid: 024594c30a91b5d4b8b8dd140ebf08c4
@@ -77,9 +68,6 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Game/Quest_Tue/Quest2-4.unity
     guid: 4cb8de8910088054d8b6a6b510115a7d
@@ -101,55 +89,55 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
@@ -916,5 +904,20 @@ EditorBuildSettings:
     guid: 527f0ac4e6ae8b2409223e4022aae99c
   - enabled: 1
     path: Assets/Scenes/Map/Map3.unity
-    guid: 4c195d3ef0a4667498bc92859d15fe8b
+    guid: acb17cb89bc3a674d9a188f56f801734
+  - enabled: 1
+    path: Assets/Scenes/Map/Map4.unity
+    guid: 295d0a0c1e4c5e64e81685f0b1def3bf
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Map/Map5.unity
+    guid: d130b33db09672546b8c5dee23eb8a89
+  - enabled: 1
+    path: Assets/Scenes/Map/Map6.unity
+    guid: f96659717754e014ab10b6dae6511dbb
+  - enabled: 1
+    path: Assets/Scenes/Map/Map7.unity
+    guid: 26fdf47b25540bf4a8360608cad567be
   m_configObjects: {}
